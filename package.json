@@ -1,0 +1,31 @@
+{
+	"name": "graphkit",
+	"version": "1.0.0",
+	"author": "Izaak Schroeder",
+	"contributors": [
+
+	],
+	"keywords": [
+		"graph"
+	],
+	"homepage": "https://izaakschroeder.github.io/graphkit",
+	"bugs": "https://www.github.com/izaakschroeder/parsekit/issues",
+	"license": "CC0-1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://www.github.com/izaakschroeder/parsekit.git"
+	},
+	"main": "lib/graph.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "NODE_PATH=lib NODE_ENV=test mocha -r test/helpers/chai test/spec"
+	},
+	"dependencies": {
+		"lodash": "*"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	}
+}
